@@ -11,7 +11,7 @@ const Landing = () => {
             <div className='masker text-white'>
               <div className='w-fit flex items-end overflow-hidden'>
                 {index === 1 && (
-                  <motion.div initial={{ width: 0 }} animate={{ width: "8vw" }} transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }} className='mr-[1vw] w-[8vw] rounded-md h-[5.7vw] -top-[0.5vw] relative'><img src="https://wallpapers.com/images/hd/best-sports-1920-x-1200-background-48i3ia8zmsd5o8bz.jpg" alt="" /></motion.div>
+                  <motion.div initial={{ width: 0 }} animate={{ width: "8vw" }} transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }} className='mr-[1vw] w-[8vw] rounded-md h-[5.7vw] -top-[1.5vw] relative'><img src="/Landing_bg.png" alt="" /></motion.div>
                 )}
                 <h1 className="uppercase text-[7.5vw] leading-[6.5vw] tracking-tighter font-['Roboto_Condensed'] font-bold">
                   {item}

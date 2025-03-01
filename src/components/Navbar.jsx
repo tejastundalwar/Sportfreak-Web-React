@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className='fixed z-[999] w-full px-20 py-8 font-["Doto"] flex justify-between items-center' >
       <div className='logo h-[4vw] w-[8vw]'>
 	  <h1>
-      <img src="https://pbs.twimg.com/profile_images/1689900648869797888/QypwXCYS_400x400.jpg" alt="" />
+      <img src="/sport.png" alt="Sports Logo" />
     </h1>
 	  </div>
 
